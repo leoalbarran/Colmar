@@ -1,0 +1,234 @@
+html {
+font-size: 16px;
+margin: 0;
+padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #2c5b60;
+}
+
+h1  {
+  font-weight: 700;
+  color: #614B44;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+h3 {
+  color: #614B44;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: #614B44;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  height: 32px;
+  margin-left: 24px;
+  align-items: center;
+}
+
+.logo span {
+  color: grey;
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav.desktop li {
+  display: inline-block;
+  justify-content: space-around;
+  margin: 16px;
+  padding-right: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav.cell {
+  display: none;
+}
+
+
+/* Main */
+
+/* Learn */
+
+.learn-container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #BFB7B5;
+}
+
+.learn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px 24px;
+}
+
+.left {
+  max-width: 60%;
+  margin-right: 24px;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  padding-right: 72px;
+}
+.right span {
+  color: white;
+  background-color: #614B44;
+  text-align: center;
+  display: block;
+  border-radius: 6px;
+  padding: 16px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.2;
+}
+
+.right span:hover {
+  background-color: red;
+}
+
+/* Campus */
+
+.campus-container {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.left {
+  width: 60%;
+}
+
+.practice {
+  display: block;
+
+}
+.practice img,
+.practice p  {
+  width: 100%;
+  padding: 32px 24px;
+}
+
+.practice h1,
+.practice h6 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+.practice h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #614B44;
+  font-size: 0.9rem;
+  padding-bottom: 32px;
+}
+
+/* right section */
+
+.school {
+  width: 40%;
+  display: flex;
+  padding-top: 32px;
+  padding-left: 40px;
+
+  flex-direction: column;
+}
+
+.orientation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-left: 2px solid #BFABA4;
+}
+.orientation:first-child {
+  border-bottom: 2px solid #BFABA4;
+}
+.orientation:last-child {
+  background-color: #BFABA4;
+}
+
+.school-image img {
+  width: 35%;
+}
+
+.date {
+  width: 65%;
+}
+
+.school a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Courses */
+
+.start-learning-container {
+  display: flex;
+  background-color: #BFABA4;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+
+.courses {
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  width: 30%
+  background-color: white;
+}
+
+.course img {
+  width: 100%;
+}
